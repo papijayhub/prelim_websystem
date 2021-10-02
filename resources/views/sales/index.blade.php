@@ -1,6 +1,13 @@
 @extends('layouts.app')
 
 @section('content')
+
+
+<section>
+    <img src="{{asset('images\shoessales.jpg')}}" alt="shoessales">
+</section>
+
+
     <section class="content-header">
         <div class="container-fluid">
             <div class="row mb-2">
