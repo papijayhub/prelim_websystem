@@ -16,7 +16,7 @@ class CreateServicesTable extends Migration
         Schema::create('services', function (Blueprint $table) {
             $table->id();
             $table->string('add_for_deliver');
-            $table->integer('contact');
+            $table->string('contact');
             $table->string('email');
             $table->timestamps();
             

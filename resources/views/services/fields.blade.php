@@ -7,7 +7,7 @@
 <!-- Contact Field -->
 <div class="form-group col-sm-6">
     {!! Form::label('contact', 'Contact Number:') !!}
-    {!! Form::number('contact', null, ['class' => 'form-control']) !!}
+    {!! Form::text('contact', null, ['class' => 'form-control']) !!}
 </div>
 
 <!-- Email Field -->
