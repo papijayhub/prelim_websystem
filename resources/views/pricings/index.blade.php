@@ -1,6 +1,16 @@
 @extends('layouts.app')
 
 @section('content')
+
+<style>
+    .roro{
+        width:100%;
+        height:500px;
+        
+    }
+</style>
+<img class="roro" src="{{asset('images\w1.jpg')}}" alt="shoes1">
+
     <section class="content-header">
         <div class="container-fluid">
             <div class="row mb-2">

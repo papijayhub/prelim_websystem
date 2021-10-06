@@ -3,9 +3,15 @@
 @section('content')
 
 
-<section>
-    <img src="{{asset('images\shoesproduct.jpg')}}" alt="shoesproduct">
-</section>
+<style>
+    .roro{
+        width:100%;
+        height:500px;
+        
+    }
+</style>
+<img class="roro" src="{{asset('images\w4.jpg')}}" alt="shoes1">
+
 
 
 
